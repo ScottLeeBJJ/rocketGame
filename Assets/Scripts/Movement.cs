@@ -37,21 +37,31 @@ public class Movement : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Space))
         {
-            rb.AddRelativeForce(Vector3.up * mainThrust * Time.deltaTime);
-            if(!audioSource.isPlaying)
-            {
-                audioSource.PlayOneShot(mainEngine);
-            }
-            if (!mainBooster.isPlaying)
-            {
-                mainBooster.Play();
-            }
+            StartThrusting();
         }
         else 
         {
-            audioSource.Stop();
-            mainBooster.Stop();
+            StopThrusting();
         }
+    }
+
+    void StartThrusting()
+    {
+        rb.AddRelativeForce(Vector3.up * mainThrust * Time.deltaTime);
+        if(!audioSource.isPlaying)
+        {
+            audioSource.PlayOneShot(mainEngine);
+        }
+        if (!mainBooster.isPlaying)
+        {
+            mainBooster.Play();
+        }
+    }
+
+    void StopThrusting()
+    {
+        audioSource.Stop();
+        mainBooster.Stop();
     }
 
     void ProcessRotation()

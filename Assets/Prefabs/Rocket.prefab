@@ -237,8 +237,8 @@ MonoBehaviour:
   rotationThrust: 500
   mainEngine: {fileID: 8300000, guid: 09b95cb07c908d24a86bc747182159c7, type: 3}
   mainBooster: {fileID: 3860013174167615732}
-  leftBooster: {fileID: 238211771673672035}
-  rightBooster: {fileID: 5735880470122780751}
+  leftBooster: {fileID: 5735880470122780751}
+  rightBooster: {fileID: 238211771673672035}
 --- !u!82 &410435448
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1250,11 +1250,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 771087676723270698, guid: d4b06ebeeaf0ac044aeed997d98443c2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.36
+      value: 0.59
       objectReference: {fileID: 0}
     - target: {fileID: 771087676723270698, guid: d4b06ebeeaf0ac044aeed997d98443c2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.2
+      value: 0.19
       objectReference: {fileID: 0}
     - target: {fileID: 771087676723270698, guid: d4b06ebeeaf0ac044aeed997d98443c2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1542,15 +1542,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 771087676723270698, guid: d4b06ebeeaf0ac044aeed997d98443c2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.64
+      value: -0.31
       objectReference: {fileID: 0}
     - target: {fileID: 771087676723270698, guid: d4b06ebeeaf0ac044aeed997d98443c2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.2
+      value: 0.21
       objectReference: {fileID: 0}
     - target: {fileID: 771087676723270698, guid: d4b06ebeeaf0ac044aeed997d98443c2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.29
+      value: 0.32
       objectReference: {fileID: 0}
     - target: {fileID: 771087676723270698, guid: d4b06ebeeaf0ac044aeed997d98443c2, type: 3}
       propertyPath: m_LocalRotation.w
