@@ -18,6 +18,7 @@ public class Oscillator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (period == 0) { return; }
         float cycles = Time.time / period;
 
         const float tau = Mathf.PI * 2;
