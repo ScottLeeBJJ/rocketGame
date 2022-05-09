@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &232439701 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5629253143935795689, guid: 8d508c0c799cd21449f661e9c164622c, type: 3}
+  m_PrefabInstance: {fileID: 738166398}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &582973358
 GameObject:
   m_ObjectHideFlags: 0
@@ -948,6 +953,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4799311877502629824, guid: 8d508c0c799cd21449f661e9c164622c, type: 3}
   m_PrefabInstance: {fileID: 738166398}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1496123075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 232439701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3536524a623daff46aa11c9572927725, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementVector: {x: 8, y: 0, z: 0}
+  period: 2
 --- !u!4 &1654533263 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4799311877502629824, guid: 8d508c0c799cd21449f661e9c164622c, type: 3}
@@ -966,8 +985,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementVector: {x: 8, y: 0, z: 0}
-  period: 2
-  movementFactor: 0
+  period: 0
 --- !u!1 &1826566723
 GameObject:
   m_ObjectHideFlags: 0
